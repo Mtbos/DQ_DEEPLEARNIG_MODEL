@@ -89,7 +89,7 @@ for batch in test.as_numpy_iterator():
 
 
 # test the model now
-img = cv2.imread('C:\\Users\\MILAN\\Downloads\\gojo.png')
+img = cv2.imread('Enter your test image path')
 resize = tf.image.resize(img, (256, 256))
 plt.imshow(resize.numpy().astype(int))
 
